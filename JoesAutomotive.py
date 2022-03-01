@@ -4,7 +4,7 @@ import ServiceQuote as sq
 
 def main():
 
-    TAX = .2
+    TAX = .0625
     pcharge = float(input('What was the parts cost? '))
     lcharge = float(input('What was the labor cost? '))
     total = (pcharge + lcharge) + ((pcharge + lcharge) * TAX)
